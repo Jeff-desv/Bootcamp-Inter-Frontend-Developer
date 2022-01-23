@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--bootstrap-->
+     <link 
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+     <!--FONT AWESOME-->
+     <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha512-u7ppO4TLg4v6EY8yQ6T6d66inT0daGyTodAi6ycbw9+/AU8KMLAF7Z7YGKPMRA96v7t+c7O1s6YCTGkok6p9ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!--CSS-->
+     <link rel="stylesheet" href="./css/index.css">
+    <title>Home</title>
+    
+</head>
+
+<body>
+
+    <section class="container-fluid">
+        <!--HEADER-->
+        <header class="row">
+            <!--LOGO-->
+            <div class="col-2">
+                <a href="#">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <!--LOGO FIM-->
+
+            <!--MENU-->
+            <div class="col-8">
+                <ul class="menu-list">
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Séries</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Filmes</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Mais Recentes</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Minha Lista</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </section>
+
+    <!--HERO INICIO-->
+    <section id="hero" class="container-fluid">
+        <section class="container">
+            <div class="row" id="hero-infos">
+                <!--IMG-->
+                <div class="col-6">
+                    <img src="img/you-logo.png" alt="" class="logo">
+                    <!--INFO-->
+                    <p class="text-white">
+                        Obsessivo e mortalmente charmoso, Joe vai ao extremo para entrar na vida de quem o fascina. <br>
+                        Por trás de seus modos gentis, há uma fúria assassina e um passado perturbador.
+                    </p>
+                    <br>
+                    <!--buttons-->
+                    <button onclick="acao()" class="btn btn-lg btn-custom-white">
+                        <i class="fas fa-play">
+                            Assistir
+                        </i>
+                    </button>
+
+                    <button class="btn btn-lg btn-custom">
+                        <i class="fas fa-info-circle">
+                            Mais Informações
+                        </i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--HERO FIM-->
+
+    <!--MAIN INICIO-->
+    <main id="main-content">
+        <!--Lista filmes-Populares-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-white">Populares da Netflix</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12">
+
+                <ul class="filme-lista">
+
+                    <li class="filme">
+                        <img class="img-fluid" src="img/homem-aranha.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 180min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid ml-5" src="img/lucifer.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p>T4 : EP3 <text>"Meu Epsódio"</text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/shikkakumon.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p>T1 : EP8 <text>"Meu Epsódio"</text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/pacificador.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 4 Temporadas <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/hacker.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 180min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/eternos.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 145min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/flash.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> T6 : EP8 <text>"Meu Epsódio"</text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/matrix.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 195min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/peaky.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> T1 : EP10 <text>"Meu Epsódio"</text></p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            
+        </section>
+        <!--Lista filmes-Populares/ FIM-->
+
+        <!--Minha Lista-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-white">Minha Lista</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12">
+
+                <ul class="filme-lista">
+
+                    <li class="filme">
+                        <img class="img-fluid" src="img/lucifer.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> T4 : EP3 <text> "Meu Epsódio" </text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid ml-5" src="img/Series/you.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p>T3 : EP8 <text>"Meu Epsódio"</text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/Acao/sobreviva.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 145min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/Desenhos/simpsons.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 89min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/flash.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> T6 : EP8 <text>"Meu Epsódio"</text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/matrix.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 195min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/peaky.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> T1 : EP10 <text>"Meu Epsódio"</text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/shikkakumon.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> T1 : EP8 <text>"Meu Epsódio"</text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/yashahime.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> T1 : EP1 <text>"Meu Epsódio"</text></p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            
+        </section>
+        <!--Minha Lista/ FIM-->
+
+         <!--Mais Assistidos Lista-->
+         <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-white">Mais Assistidos</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12">
+
+                <ul class="filme-lista">
+
+                    <li class="filme">
+                        <img class="img-fluid" src="img/Comedia/mimadinhos.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 180min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid ml-5" src="img/flash.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p>8 Temporadas<text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/lucifer.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p>5 Temporadas <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/matrix.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 195min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/riverdalle.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 5 Temporadas <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/peaky.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 2 Temporadas <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/hacker.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p>180min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/Acao/fortaleza.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 195min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/Comedia/space.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> T1 : EP10 <text>"Meu Epsódio"</text></p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            
+        </section>
+        <!--Mais Assistidos/ FIM-->
+
+        <!--Ação-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-white">Ação</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12">
+
+                <ul class="filme-lista">
+
+                    <li class="filme">
+                        <img class="img-fluid" src="img/Acao/alerta.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 180min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid ml-5" src="img/Acao/blacklight.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 190min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/Acao/dangerous.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 115min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/Acao/flash.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 8 Temporadas <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/Acao/fortaleza.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 98min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/Acao/sobreviva.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 145min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/Acao/tiro.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> T6 : EP8 <text>"Meu Epsódio"</text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/Acao/pandemia.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 195min <text></text></p>
+                        </div>
+                    </li>
+
+                    <li class="filme filme-espaco">
+                        <img class="img-fluid" src="img/Acao/homem-aranha.jpg" alt="">
+                        <div class="filme_info">
+                            <div class="col-12">
+                                <a href="#" class="btn btn-custom-round btn-light rounded-circle">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-up"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white far fa-thumbs-down"></i>
+                                </a>
+
+                                <a href="#" class="btn rounded-circle btn-custom-round border-white opacity-50">
+                                    <i class="text-white fas fa-plus"></i>
+                                </a>
+                            </div>
+                            <p> 115min <text></text></p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            
+        </section>
+        <!--Ação/ FIM-->
+
+    </main>
+    
+   
+</body>
+</html>
