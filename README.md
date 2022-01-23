@@ -22,7 +22,7 @@
 
 <p>
   De Início foi criada uma página de Login, não foi proposto no curso, então decidi cria-la<br>
-  É uma página simples com imagem de fundo e um formulário, essa página não está lincada ainda com a página HOME <br>
+  É uma página simples com imagem de fundo e um formulário, essa página não está lincada ainda com a página HOME 
   e uma das coisas que ainda precisa ser feita, e deixa-la responsiva.
 </p>
 <p>
