@@ -13,7 +13,7 @@
 <h1> Projeto Feito por Mim </h1>
 <br>
 <span>O que utilizei para fazer esse projeto?</span> 
-<br> <br>
+<br> 
 <ol>
   <li>CSS GRID</li>
   <li>Bootstrap</li>
@@ -21,13 +21,20 @@
 <br>
 
 <p>
+  De Início foi criada uma página de Login, não foi proposto no curso, então decidi cria-la<br>
+  É uma página simples com imagem de fundo e um formulário, essa página não está lincada ainda com a página HOME <br>
+  e uma das coisas que ainda precisa ser feita, e deixa-la responsiva.
+</p>
+<p>
   Apesar de ter feito uma versão como proposto no curso, refatorei o código utilizando CSS GRID e BOOTSTRAP, <br>
-  decidi fazer isso pois no momento estou aprendendo mais sobre os dois e vi que daria para recriar utilizando-os. <br>
+  decidi fazer isso pois no momento estou aprendendo mais sobre os dois e vi que daria para recriar utilizando-os <br>
+  e decidi fazer dessa forma.
 </p>
 <br>
 <span>
   Além disso, tambem fiz algumas pequenas alterações:
-</span> <br>
+</span> 
+<br>
 <p>
   Ao invés do carousel feito com o Jquery decidi fazer com listas não ordenadas, e em cada título de filme adcionei um card <br>
   cada card possui os botões para assistir, curtir, adcionar, não acionei essas funcionalidades nos botões ainda mas pretendo <br>
